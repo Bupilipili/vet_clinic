@@ -54,11 +54,9 @@ VALUES ('William Tatcher', 45, '2000-04-23'),
 INSERT INTO specializations (vet_id, species_id)
 VALUES
     (1, 1), -- Vet William Tatcher specialized in Pokemon
-    (2, 2), -- Vet Maisy Smith specialized in Digimon
     (3, 1), -- Vet Stephanie Mendez specialized in Pokemon
     (3, 2), -- Vet Stephanie Mendez specialized in Digimon
     (4, 2); -- Vet Jack Harkness specialized in Digimon
-
 
 -- Insert data for visits
 INSERT INTO visits (animal_id, vet_id, visit_date)
