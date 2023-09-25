@@ -106,6 +106,14 @@ To run the project, execute the following command:
 - Twitter: [@ErickBupilipili](https://twitter.com/ErickBupilipili?t=UqGSzTxuad6me1Rf7eplPg&s=08)
 - LinkedIn: [ErickBupilipili](https://www.linkedin.com/in/erick-bupilipili-08ba31228)
 
+👤 **Fatima Najafi**
+
+
+- GitHub: [@fatima-najafi](https://github.com/fatima-najafi)
+- Twitter: [@fatima-najafi](https://twitter.com/FatimaNajafi6)
+- LinkedIn: [@fatima-najafi](https://www.linkedin.com/in/fatima-najafi/)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
