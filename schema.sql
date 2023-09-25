@@ -55,7 +55,9 @@ CREATE TABLE visits (
     FOREIGN KEY (vet_id) REFERENCES vets(id)
 );
 
---- pair programmming
+--- Change visit_date to date_of_visit
+ALTER TABLE visits RENAME COLUMN visit_date TO date_of_visit;
+
 -- Add an email column to your owners table
 ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 
