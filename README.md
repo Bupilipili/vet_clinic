@@ -113,6 +113,12 @@ To run the project, execute the following command:
 - Twitter: [@fatima-najafi](https://twitter.com/FatimaNajafi6)
 - LinkedIn: [@fatima-najafi](https://www.linkedin.com/in/fatima-najafi/)
 
+👤 **Ochieng Steven**
+
+- GitHub: [@Ochiengsteven](https://github.com/Ochiengsteven)
+- Twitter: [@ochiengsteven](https://twitter.com/)
+- LinkedIn: [ochiengsteven](https://www.linkedin.com/in/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
