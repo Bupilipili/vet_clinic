@@ -11,7 +11,7 @@ CREATE TABLE animals (
 ALTER TABLE animals
 ADD COLUMN species VARCHAR(100);
 
--- Create the owners table
+-- Create the owners table.
 CREATE TABLE owners (
     id SERIAL PRIMARY KEY,
     full_name VARCHAR(100),
@@ -55,3 +55,21 @@ CREATE TABLE visits (
     FOREIGN KEY (vet_id) REFERENCES vets(id)
 );
 
+--- Change visit_date to date_of_visit
+ALTER TABLE visits RENAME COLUMN visit_date TO date_of_visit;
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+
+-- CREATE index 
+--explain analyze SELECT COUNT(*) FROM visits where animal_id = 4
+
+CREATE INDEX animal_index ON visits(animal_id);
+
+
+--SELECT * FROM visits where vet_id = 2;
+CREATE INDEX vet_id_index ON visits (vet_id);
+
+--SELECT * FROM owners where email = 'owner_18327@mail.com';
+CREATE INDEX email_index ON owners (email);
